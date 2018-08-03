@@ -9,6 +9,14 @@
 #   text_selection: "#00C4B6"
 #   link_color: "#858585"
 #   hr_color: "#A4D8FA"
+theme_color:
+  enable: true
+  main: "#FF667B"
+  paginator: "#FF667B"
+  button_hover: "#FF667B"
+  text_selection: "#FF667B"
+  link_color: "#FF667B"
+  hr_color: "#FF667B"
 
 # Main menu navigation
 # ---------------
@@ -41,14 +49,16 @@ pwa:
 
 # Highlight theme
 # ---------------
-highlight_theme: default
+highlight_theme: light
 
-# code_word_wrap: true or false
+code_word_wrap: true
 
 # Nav settings
 # ---------------
-#social:
-  #icon_name: url
+social:
+  github: https://github.com/Zakariyya
+  weibo: http://weibo.com/mybluedreams
+  # rss: https://Molunerfinn/atom.xml
 
 # Algolia search
 # ---------------
