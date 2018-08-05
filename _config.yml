@@ -257,7 +257,7 @@ busuanzi:
   #Name: url
 
 # Follow Me Button
-# follow:
-#   enable: true
-#   url: ''
-#   text: ''
+follow:
+  enable: true
+  url: 'https://github.com/Zakariyya'
+  text: 'Follow Me'
