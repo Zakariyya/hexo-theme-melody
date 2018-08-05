@@ -49,7 +49,7 @@ highlight_theme: light
 # ---------------
 social:
   github: https://github.com/Zakariyya
-  weibo: http://weibo.com/mybluedreams
+  weibo: https://weibo.com/1950891577/profile?topnav=1&wvr=6
   facebook-f: facebook.com
 
 # Algolia search
@@ -133,7 +133,7 @@ wordcount:
 
 toc:
   enable: true
-  # number: true
+  number: true
 
 post_copyright:
   enable: true
@@ -176,9 +176,9 @@ addThis:
   enable: false
   #pubid: 
 
-# sharejs:
-  # enable: false
-  # disabled_sites: 
+sharejs:
+  enable: true
+  disabled_sites: qq
 
 # Comments System
 # ---------------
@@ -210,17 +210,17 @@ disqus:
 #   js: https://cdn.jsdelivr.net/gh/upupming/gitalk@36368e5dffd049e956cdbbd751ff96c28d8255cf/dist/gitalk.min.js
 
 # valine comment system. https://valine.js.org
-# valine:
-#   enable: false # if you want use valine,please set this value is ture
-#   appId:  # leancloud application app id
-#   appKey:  # leancloud application app key
-#   notify: false # valine mail notify (true/false) https://github.com/xCss/Valine/wiki
-#   verify: false # valine verify code (true/false)
-#   pageSize: 10 # comment list page size
-#   avatar: mm # gravatar style https://valine.js.org/#/avatar
-#   lang: zh-cn # i18n: zh-cn/en
-#   placeholder: Just go go # valine comment input placeholder(like: Please leave your footprints )
-#   guest_info: nick,mail,link #valine comment header inf
+valine:
+  enable: true # if you want use valine,please set this value is ture
+  appId:  MMdsKHHea0L1GyGfUI1Ypz3P-gzGzoHsz # leancloud application app id
+  appKey: UVgr8oUHNNPiEhvXQ1oF9czo # leancloud application app key
+  notify: false # valine mail notify (true/false) https://github.com/xCss/Valine/wiki
+  verify: false # valine verify code (true/false)
+  pageSize: 10 # comment list page size
+  avatar:  # gravatar style https://valine.js.org/#/avatar
+  lang: zh-cn # i18n: zh-cn/en
+  placeholder: Just go go # valine comment input placeholder(like: Please leave your footprints )
+  guest_info: nick,mail,link #valine comment header inf
 
 # Footer Settings
 # ---------------
@@ -252,9 +252,9 @@ busuanzi:
 
 # Sidebar Settings
 # ---------------
-#links_title: Links
-#links:
-  #Name: url
+links_title: Links
+links:
+  Name: url
 
 # Follow Me Button
 follow:
