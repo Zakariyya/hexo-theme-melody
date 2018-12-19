@@ -253,7 +253,9 @@ busuanzi:
 # ---------------
 links_title: Links
 links:
-  Name: url
+  厦门大学数据库实验室: http://dblab.xmu.edu.cn/blog/category/big-data/
+  四点网: http://4dian.sinaapp.com/
+  IT手册: https://www.itshouce.com.cn
 
 # Follow Me Button
 follow:
